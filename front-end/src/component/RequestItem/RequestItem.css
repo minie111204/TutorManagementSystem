@@ -1,0 +1,16 @@
+.container-card .content-card .left-content .status{
+  border-radius: 15px;
+  padding: 1px 7px;
+}
+
+.container-card .content-card .left-content .processed{
+  background: #FFDFD3;
+}
+
+.container-card .content-card .left-content .not-yet-processed{
+  background: #FEC8D8;
+}
+
+.container-card .content-card .left-content p:first-of-type{
+  margin-top: 5px;
+}

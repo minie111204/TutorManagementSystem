@@ -1,0 +1,41 @@
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 14.5px 48px;
+    flex-wrap: wrap;
+    background: #E0BBE4;
+    margin-top: auto;
+}
+
+.container-footer .left-footer{
+    color: #000;
+font-family: Itim;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.container-footer .left-footer h3{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 7px;
+}
+
+.container-footer .right-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    color: #1E1E1E;
+font-family: Itim;
+font-size: 20px;
+max-width: 180px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

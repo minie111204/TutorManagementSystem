@@ -1,0 +1,47 @@
+.container-card .content-card .left-content .open{
+  background: #E0BBE4;
+}
+.container-card .content-card .left-content .cancel{
+  background: #D291BC;
+}
+.container-card .content-card .left-content .process{
+  background: #FFDFD3;
+}
+
+.container-card .content-card .left-content .not-yet-process{
+  background: #FEC8D8;
+}
+
+#demo-simple-select{
+  padding: 0;
+  padding-right: 30px;
+}
+
+fieldset{
+  border: none !important;
+  outline: none;
+}
+
+#demo-simple-select svg{
+  margin-right: 0;
+}
+
+.css-siyuh6-MuiSelect-icon {
+  right: 0 !important;
+}
+
+.MuiSelect-icon{
+  margin-right: 0 !important;
+}
+
+.MuiSelect-iconOpen{
+  right: 0 !important;
+}
+
+.MuiMenu-list{
+  padding: 0 !important;
+}
+
+.container-card .title-card img{
+  cursor: pointer;
+}

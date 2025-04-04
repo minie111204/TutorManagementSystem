@@ -1,0 +1,61 @@
+.container-create-class h1{
+    color: #957DAD;
+
+font-family: Itim;
+font-size: 70px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 5px;
+}
+
+.container-create-class .title-inp{
+    color: #957DAD;
+
+text-align: center;
+font-family: Itim;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.container-create-class  img{
+    cursor: pointer;
+}
+
+.container-create-class .item-inp input{
+    all: unset;
+    border-radius: 20px;
+border: 3px solid #957DAD;
+padding: 16px 35px;
+background: #FEC8D8;
+color: #000;
+
+font-family: Roboto;
+font-size: 15px;
+font-style: italic;
+font-weight: 400;
+min-width: 350px;
+}
+
+.container-create-class .item-inp input::placeholder{
+    color: #fff;
+}
+
+.container-create-class{
+    margin-bottom: 130px;
+}
+
+.container-create-class .bottom-grid{
+    gap: 19px;
+    display: grid;
+}
+
+.container-create-class form{
+    gap: 19px 0px;
+    display: grid;
+}

@@ -1,0 +1,18 @@
+.grid-container-top .open{
+  background: #E0BBE4;
+}
+.grid-container-top .cancel{
+  background: #D291BC;
+}
+.grid-container-top .process{
+  background: #FFDFD3;
+}
+
+.grid-container-top .not-yet-process{
+  background: #FEC8D8;
+}
+
+.grid-container-top .status{
+  border-radius: 15px;
+  padding: 0 15px;
+}

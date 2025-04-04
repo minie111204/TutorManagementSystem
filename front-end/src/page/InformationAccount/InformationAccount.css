@@ -1,0 +1,34 @@
+.container-information-account{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 51px;
+  align-items: center;
+  margin-bottom: 161px;
+  margin-top: 60px;
+}
+
+.container-information-account img{
+  max-width: 125px;
+  max-height: 125px;
+}
+
+.container-grid{
+font-family: Itim;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+max-width: 1158px;
+line-height: normal;
+}
+
+.container-grid .item{
+  padding: 10px 40px;
+}
+
+.container-grid .title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-wrap: nowrap;
+}

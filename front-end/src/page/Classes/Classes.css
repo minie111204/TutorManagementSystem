@@ -1,0 +1,118 @@
+.container-classes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #957dad;
+  font-family: Itim;
+  font-size: 70px;
+  font-style: normal;
+  flex-wrap: wrap;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container-classes h1 {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-classes .container-filter-class {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  align-items: center;
+  font-size: 30px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.container-classes .container-filter-class .box-filter label {
+  color: #000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: italic;
+  border-radius: 10px;
+  border: 2px solid #957dad;
+  background: #fec8d8;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 6px;
+  cursor: pointer;
+}
+
+.container-classes .container-filter-class .box-filter {
+  position: relative;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.container-classes .container-filter-class .box-filter .box-inp label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-classes .container-filter-class .box-filter .box-inp input {
+  display: flex;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  left: -60px;
+}
+
+.container-classes .container-filter-class .option-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.container-classes .container-filter-class .option-btn img {
+  cursor: pointer;
+}
+
+.container-classes .sort-list {
+  display: flex;
+  margin-top: 31px;
+  gap: 28px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+.container-classes .sort-list .sort-item {
+  border-radius: 10px;
+  border: 2px solid #957dad;
+  flex-shrink: 1;
+  background: #fec8d8;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  padding-left: 22px;
+  padding-right: 10px;
+  height: 50px;
+  align-items: center;
+}
+
+.container-classes .sort-list .sort-item img {
+  cursor: pointer;
+}
+
+.container-classes .container-card-list {
+    display: flex;
+    justify-content: center;
+  gap: 40px 20px; /* Khoảng cách giữa các item */
+  margin-top: 50px;
+  padding-left: 31px;
+  padding-right: 31px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.sort-item input{
+  display: flex;
+}

@@ -1,0 +1,5 @@
+-- Requirement:
+    -- + Scheme of the database
+    -- + Basic database insertion
+-- Baseline script for the existing database structure
+-- Version: 1

@@ -1,0 +1,83 @@
+.container-ta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 76.52%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  
+  .container-ta h1 {
+    color: #957dad;
+    font-family: Itim;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    margin-top: 72px;
+  }
+  
+  .container-ta h1 p {
+    color: #000;
+  }
+  
+  .container-ta > .img {
+    margin-left: auto;
+    cursor: pointer;
+  }
+  
+  .container-ta .form-ta {
+    width: 100%;
+    margin-top: 28px;
+    border: 1px solid #957dad;
+  }
+  
+  .grid-container-top {
+    min-height: 50px;
+    color: #000;
+    font-family: Itim;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .grid-item-top {
+    height: 100%;
+  }
+  
+  .item.title {
+    background: #fec8d8;
+    color: #957dad;
+    font-family: Itim;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .item:not(.item.title) {
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .item{
+    border: 1px solid #957dad;
+    color: #000;
+    font-family: Itim;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .item p{
+    cursor: pointer;
+  }
